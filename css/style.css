@@ -13,6 +13,7 @@ Fonts: Montserrat Varela Round
 
 Table OF Contents
 ------------------------------------
+0 > app icons
 1 > General
 2 > Logo
 3 > Navigation
@@ -36,6 +37,21 @@ Table OF Contents
 21 > Preloader
 
 ------------------------------------*/
+
+
+.app-icon-frame{
+    width: 200px;
+    height: 200px;
+    background-image: url('./img/icon-app-mask.svg')
+}
+
+.app-icon-image{
+    width: 100%;
+    height: 100%;
+
+}
+
+
 
 /*------------------------------------*\
 	General
@@ -594,7 +610,6 @@ header {
 }
 
 .home-content h1 {
-  /*text-transform: uppercase;*/
 }
 .home-content button {
   margin-top: 20px;
