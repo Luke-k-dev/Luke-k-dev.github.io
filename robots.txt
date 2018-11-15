@@ -1,1 +1,2 @@
 User-agent: *
+Sitemap: https://lucasklein.us/sitemap.xml
