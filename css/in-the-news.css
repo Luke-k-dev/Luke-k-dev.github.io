@@ -1,0 +1,5 @@
+@media (max-width: 992px) { 
+    .article-link > * > * > h4 {
+        margin-top: 20px;
+    }
+}
