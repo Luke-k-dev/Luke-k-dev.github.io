@@ -1,0 +1,78 @@
+.app-card-frame {
+    margin-top: 20px;
+    background-color: rgb(72,72,74);
+    padding: 18px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    animation: app-hover-reverse 0.2s ease-in-out;
+}
+
+.app-card-frame:hover {
+    background-color: rgb(103, 103, 107);
+    animation: app-hover 0.2s ease-in-out;
+}
+
+
+@keyframes app-hover {
+    from {
+        background-color: rgb(72,72,74);
+    }
+    to {
+        background-color: rgb(103, 103, 107);
+    }
+}
+
+
+@keyframes app-hover-reverse {
+    to {
+        background-color: rgb(72,72,74);
+    }
+    from {
+        background-color: rgb(103, 103, 107);
+    }
+}
+
+.app-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 12px;
+}
+
+.app-card-text {
+    margin-left: 16px;
+    color: rgb(242, 242, 247);
+}
+
+.app-card-text > h4 {
+    margin-bottom: 5px;
+}
+
+.app-card-text > p {
+    margin-bottom: 0px;
+}
+
+.app-card > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 23px;
+}
+
+.app-card-frame > p {
+    color: rgb(242, 242, 247);
+    font-family: "Helvetica Neue", 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.app-card-frame > * > li {
+    color: rgb(242, 242, 247);
+    font-family: "Helvetica Neue", 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.app-card-frame > ul {
+    margin-bottom: 0px;
+}
